@@ -1,0 +1,42 @@
+# CMake and build output
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+Makefile
+*.ninja
+.ninja_deps
+.ninja_log
+install_manifest.txt
+compile_commands.json
+
+# Machine-specific CMake configuration
+CMakeUserPresets.json
+
+# Qt Creator and IDE user files
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+*.creator.user
+
+# Compiler and linker artifacts
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.pdb
+
+# Editor and operating-system files
+*~
+*.swp
+*.swo
+.DS_Store
+.cache/

@@ -1,0 +1,9 @@
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+find_dependency(Qt6 6.12 COMPONENTS Core Gui Widgets Multimedia)
+find_dependency(TagLib 2.0 CONFIG REQUIRED)
+
+include("${CMAKE_CURRENT_LIST_DIR}/NeniaTargets.cmake")
+
+check_required_components(Nenia)

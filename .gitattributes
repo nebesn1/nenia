@@ -1,0 +1,10 @@
+# Keep these development-only paths in the private repository while omitting
+# their files from a source archive created with `git archive`.
+/assets/demo/** export-ignore
+/assets/themes/** export-ignore
+/tests/** export-ignore
+/tools/** export-ignore
+
+# Detailed engineering records stay in the private checkout; they contain
+# machine-local temporary paths and historical private-media audit context.
+/docs/phase*.md export-ignore

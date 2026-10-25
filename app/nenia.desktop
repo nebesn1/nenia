@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Nenia
+GenericName=Music Player
+Comment=Play local audio and MIDI
+Exec=nenia
+Icon=audio-x-generic
+Terminal=false
+Categories=AudioVideo;Audio;Player;

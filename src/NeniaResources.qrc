@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/nenia">
+        <file alias="fonts/source-code-pro-regular.otf">../assets/fonts/source-code-pro-regular.otf</file>
+        <file alias="fonts/fusion-pixel-10px-monospaced-zh_hans.otf">../assets/fonts/fusion-pixel-10px-monospaced-zh_hans.otf</file>
+    </qresource>
+</RCC>
